@@ -1,34 +1,27 @@
 ## Contents
 1. [Project Overview](README.md#project-overview)
-2. [Feature 1](README.md#comments-on-feature-1)
-3. [Feature 2](README.md#comments-on-feature-2)
-4. [Feature 3](README.md#comments-on-feature-3)
-5. [Feature 4](README.md#comments-on-feature-4)
-6. [Feature 6](README.md#comments-on-feature-5)
+2. [Project I](README.md#comments-on-feature-1)
+3. [Project I Review and Results](README.md#comments-on-feature-3)
+
 
 ## Project Overview
 
-Default of credit card client data set stored in UCI Center for Machine Learning and Intelligent System "Machine Learning Repository". Data set consists of 24 attributes and 30,000 instances. 
+The following sets of data stored on UCI Machine Learning Repository System  
+  o Default of credit card clients and  
+  
 
-## Feature 1
+## Project I
 
-The first six attributes include customers balance limit and other statistics such as sex, education, mariatl status, age and education.
+Default of credit card clients data set consists of 24 attributes such as clients six-month pay records e.g.; whether month-to-month bill was paid on time or not, whether the pay amount was full or partial comparing to the bill amount and clients other attributes such as age, sex, marriage, education and credit card (CC) balance.  
 
-## Feature 2
 
-Next six attributes include customers six consecutive payment information based on whether payment was made on time, ahead of the time or late. If payments been made ahead of the time, then how many months ahead; if late, then how many months late.  
+## Project I Review and Results 
 
-## Feature 3
+We found the ratio of the number of clients who paid bill on time varies from month to month (mostly increases). However this trend varies in terms of clients attributes such as education, marriage, etc. As for example, university and grad students show better trend comparing to HS students. Single pay trend is slightly better than married. 
 
-Next group of attributes describe customers bill amount for those six consecutive months.
+Inferential statistical analysis shows that the 95% confidence interval of clients balance with respect to the mean is very close to two times the STD. We applied several Machine Learning algorithms to make predictions whether a customer will be a default or not default, and compared their performance using classification report and ROC score.
 
-## Feature 4
 
-Attribute 19-24 describe customers pay amount for those six months.  
-
-## Feature 5 
-
-The final attribute describe customers 'default payment next month'.
 
 
 
