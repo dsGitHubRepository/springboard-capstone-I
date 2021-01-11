@@ -6,8 +6,8 @@
 
 ## Project Overview
 
-The following sets of data stored on UCI Machine Learning Repository System  
-  o Default of credit card clients and  
+The following data set stored on UCI Machine Learning Repository System  
+  o Default of credit card clients 
   
 
 ## Project I
